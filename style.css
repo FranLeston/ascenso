@@ -1,0 +1,27 @@
+table {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  width: 90%;
+}
+th,
+td {
+  padding: 5px;
+  width: 100px;
+}
+
+input {
+  width: 30px;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+th {
+  color: #190beb;
+}
+
+.container {
+  display: flex;
+}
+.container > div {
+  flex: 1; /*grow*/
+}

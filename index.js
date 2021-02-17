@@ -1,16 +1,4 @@
 //Setup DB
-var jornada10 = [
-  {
-    numero: 1,
-    homePoints: 0,
-    homeTeam: "Celta B",
-    homeGoals: null,
-    awayTeam: "Guijuelo",
-    awayGoals: null,
-    awayPoints: 0,
-    completed: null,
-  },
-];
 
 var jornada11 = [
   {
@@ -485,7 +473,6 @@ var jornada18 = [
 ];
 
 var jornadas = [
-  jornada10,
   jornada11,
   jornada13,
   jornada14,
@@ -498,7 +485,7 @@ var jornadas = [
 var aTeams = [
   { name: "Unionistas", points: 26, originalPoints: 26, accPoints: 0 },
   { name: "Zamora", points: 22, originalPoints: 22, accPoints: 0 },
-  { name: "Celta B", points: 21, originalPoints: 21, accPoints: 0 },
+  { name: "Celta B", points: 24, originalPoints: 24, accPoints: 0 },
   { name: "Compostela", points: 20, originalPoints: 20, accPoints: 0 },
   { name: "Deportivo", points: 20, originalPoints: 20, accPoints: 0 },
   { name: "Pontevedra", points: 18, originalPoints: 18, accPoints: 0 },

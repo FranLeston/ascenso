@@ -579,6 +579,9 @@ function generateMatchTable(table, data) {
         //make an input
         var inputHomeGoals = document.createElement("input");
         inputHomeGoals.type = "number";
+        inputHomeGoals.setAttribute("min", 0);
+        inputHomeGoals.setAttribute("max", 10);
+
         inputHomeGoals.className = "match-" + element.numero;
         inputHomeGoals.onchange = function (event) {
           element.homeGoals = Number(event.target.value);
@@ -589,6 +592,8 @@ function generateMatchTable(table, data) {
         //make an input
         var inputAwayGoals = document.createElement("input");
         inputAwayGoals.type = "number";
+        inputAwayGoals.setAttribute("min", 0);
+        inputAwayGoals.setAttribute("max", 10);
         inputAwayGoals.className = "match-" + element.numero;
 
         inputAwayGoals.onchange = function (event) {
